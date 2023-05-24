@@ -8,6 +8,7 @@ import { Usuario } from './usuario/entities/usuario.entity';
 import { ServiciosModule } from './servicios/servicios.module';
 import { FacturaModule } from './factura/factura.module';
 
+
 @Module({
   imports: [ConfigModule.forRoot(),
             TypeOrmModule.forRoot({

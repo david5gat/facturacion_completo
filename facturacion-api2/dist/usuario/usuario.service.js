@@ -32,7 +32,14 @@ let UsuarioService = class UsuarioService {
         });
     }
     async findOne(id_usuario) {
-        return await this.productRepository.findOne({ where: { id_usuario: id_usuario } });
+        let validac;
+        if (!isNaN(+id_usuario)) {
+            validac = await this.productRepository.findOneBy({ id_usuario: +id_usuario });
+        }
+        else {
+            validac = await this.productRepository.findOne({ where: { correo: id_usuario.toLowerCase() } });
+        }
+        return validac;
     }
     async update(id, updateUsuarioDto) {
         const actualizar = await this.productRepository.preload(Object.assign({ id_usuario: id }, updateUsuarioDto));

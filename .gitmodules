@@ -1,0 +1,3 @@
+[submodule "facturacion_v2_bydavid"]
+	path = facturacionv2
+	url = https://github.com/david5gat/facturacion_v2_bydavid.git
