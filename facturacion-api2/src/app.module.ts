@@ -13,7 +13,7 @@ import { FacturaModule } from './factura/factura.module';
   imports: [ConfigModule.forRoot(),
             TypeOrmModule.forRoot({
               type: "mysql",
-              host: "82.180.130.88",
+              host: "localhost",
               port: 3306,
               username: "root",
               password: "",
