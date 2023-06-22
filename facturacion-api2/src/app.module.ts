@@ -16,7 +16,7 @@ import { FacturaModule } from './factura/factura.module';
               host: "localhost",
               port: 3306,
               username: "root"@"localhost",
-              password: "mysql_native_password",
+              password: "Hola12345678#",
               database: "facturacion",
               autoLoadEntities: true,
               synchronize: true
