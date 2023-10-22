@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+*body{
+    background: rgb(252,0,255);
+    background: radial-gradient(circle, rgba(252,0,255,0.8) 0%, rgba(242,10,253,0.5) 34%, rgba(249,5,182,0.5) 67%, rgba(255,0,194,0.8015581232492998) 100%);
+}

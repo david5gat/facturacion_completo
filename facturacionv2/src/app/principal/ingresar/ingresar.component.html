@@ -1,0 +1,40 @@
+
+<div class="container ">
+    <form [formGroup]="formularioIniUsuario" (submit)="iniciarSesion()">
+        <!-- Email input -->
+        <div class="form-outline  mb-4  mt-4">
+          <input type="email" id="form2Example1" (keyup)="obtenerUsuario()" formControlName="correo" class="form-control form-control-lg " />
+          <label class="form-label"  for="form2Example1">Correo Electronico</label>
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4  mt-4">
+          <input type="password" id="form2Example2" formControlName="contraseña" class="form-control form-control-lg" />
+          <label class="form-label"  for="form2Example2">Contraseña</label>
+        </div>
+      
+        <!-- 2 column grid layout for inline styling -->
+        
+        <div class="row mb-4  mt-4">
+          <div class="col d-flex justify-content-center mt-4 mb-2">
+    
+    
+            <!-- Checkbox -->
+            <div class="form-check  mt-4 mb-2">
+              <input class="form-check-input" type="checkbox" value="" id="form2Example3" checked />
+              <label class="form-check-label" for="form2Example34"> Mantenerme conectado </label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-dark btn-block mb-4 mt-4" (click)="iniciarSesion()">iniciar sesion</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>No eres miembro? <a href="/registro">Registrate aquí</a></p>
+        </div>
+      </form>
+    </div>
+
+  

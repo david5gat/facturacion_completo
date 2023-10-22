@@ -1,0 +1,63 @@
+<div class="container ">
+
+    <form  class="m-1" [formGroup]="formularioUsuario"  (submit)="agregarUsuario()" >
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row ">
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form3Example1-1" formControlName="nombre" class="form-control " />
+            <label class="form-label" for="form3Example1">Nombre</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form3Example2" formControlName="apellido" class="form-control form-control-lg" />
+            
+            <label class="form-label" for="form3Example1-3">Apellido</label>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="row ">
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form3Example1" formControlName="direccion" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example1">Direccion</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="tel" id="form3Example1-2" formControlName="telefono" class="form-control form-control-lg" />
+            
+            <label class="form-label" for="form3Example3-1">Telefono</label>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Email input -->
+      <div class="form-outline ">
+        <input type="email" id="form3Example1-3" formControlName="correo" class="form-control form-control-lg" />
+        <label class="form-label " for="form3Example3">Correo</label>
+      </div>
+    
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="form3Example4" formControlName="contraseña" class="form-control form-control-lg" />
+        <label class="form-label " for="form3Example4">Contraseña</label>
+      </div>
+  
+    
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-dark btn-block mb-5 mt-5" > registrarse </button>
+    
+      
+    </form>
+  
+    <a href="/inicio">
+      <button  class="btn btn-primary btn-block mb-5 mt-5" >  iniciar sesion en mi cuenta </button>
+    </a>
+  
+  </div>
+  
+  

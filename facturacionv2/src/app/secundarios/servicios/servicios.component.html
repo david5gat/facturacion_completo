@@ -1,0 +1,25 @@
+
+<div class="container">
+    <div  class="row row-cols-1 mb-2 row-cols-md-2 g-1">
+    <div class="card text-white bg-dark" *ngFor="let servicio of servicios" > 
+        <div class="bg-image  hover-overlay card-body " data-mdb-ripple-color="light">
+          <img src="https://www.portafolio.co/files/article_multimedia/uploads/2017/06/12/593f19f4bdbc5.jpeg" class="card-img-top"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{servicio.nombreServicio|json | titlecase}}</h5>
+          <p class="card-text">{{servicio.descripcion|json}}</p> 
+        </div>
+      <button type="submit" class="btn btn-primary btn-block mb-5 mt-5" style="width: 50%; align-self: center;"  (click)="comprarServicio(servicio)"> agregar al carrito </button> 
+      </div>
+    
+      
+    </div>
+     </div> 
+     <a href="/carrito"> 
+    <button type="button" class="btn btn-primary btn-block mb-5 mt-5" style=" align-self: center;"> carrito de compra</button>
+    </a>
+
+    
