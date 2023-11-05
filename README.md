@@ -64,3 +64,17 @@ para ejecutar como desarollador este trabajo es necesario tener
     En el Visual Studio Code donde abrio facturacion-api2 abrir la terminal y escribir el siguiente comando: npm run start:dev
   </li>
 </ul>
+## configuración Xampp
+<ol>
+<ul>
+  <li>
+    abrir Xampp encender  apache y mysql
+  </li>
+  <li>
+    en la fila de mysql veremos un boton con el nombre admin de click al boton
+  </li>
+  <li>
+    en myadmi en la parte izquierda creamos 3 nuevas tablas con los nombres:   <lu> <li>hola</li> <li>hola2</li> </lu>
+  </li>
+</ul>
+ </ol>
