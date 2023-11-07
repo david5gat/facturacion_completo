@@ -74,24 +74,49 @@ para ejecutar como desarollador este trabajo es necesario tener
     en la fila de mysql veremos un boton con el nombre admin de click al boton
   </li>
   <li>
-    en myadmi en la parte izquierda creamos 3 nuevas tablas con los nombres precisos incluso:
+    en myadmi en la parte izquierda creamos 3 nuevas tablas con los nombres precisos incluso mayusculas y minusculas:
   </li>
 </ul>
  </ol>
 <table>
    <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Tablas</th>
+    <th>Columnas</th>
+    <th><- Tipo de Datos de columnas</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Factura</td>
+    <td> 
+    n_factura,
+    correo,
+    Servicios,
+    valor,
+    </td>
+    <td>int, varchar, varchar, int</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>servicios</td>
+    <td>
+    n_factura,
+    correo,
+    Servicios,
+    valor, 
+    </td>
+    <td>int, int, varchar, int</td>
+  </tr>
+    <td>Usuario</td>
+    <td> 
+    id_usuario,
+    nombre,
+    apellido,
+    correo,
+    contraseña,
+    direccion,
+    telefono,
+    </td>
+    <td>int, varchar, varchar, varchar, varchar, varchar, int</td>
   </tr>
 </table>
+<br>
+
+### si aparece algun error de campo le ponemos como longitud 255
