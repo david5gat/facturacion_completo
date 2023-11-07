@@ -41,29 +41,8 @@ para ejecutar como desarollador este trabajo es necesario tener
  </h3>
 
  
-<p>↑ todo completo, despues abrir la carpeta  en Visual Studio Code </p>
-<h3>
-  facturacion-api2
-</h3>
-<p> luego abrir la carpeta faturacionv2 tambien en Visual Studio Code  </p>
+<p>↑ todo completo </p>
 
-<ul>
-  <li>
-    luego de abrir los archivos en el Visual Studio Code abrir la terminal y escribir npm install 
-  </li>
-  <li>
-    Se debe hacer en los dos archivos ↑
-  </li>
-</ul>
-
-<ul>
-  <li>
-    En el Visual Studio Code donde abrio facturacionv2 abrir la terminal y escribir el siguiente comando: ng s -o
-  </li>
-  <li>
-    En el Visual Studio Code donde abrio facturacion-api2 abrir la terminal y escribir el siguiente comando: npm run start:dev
-  </li>
-</ul>
 ## configuración Xampp
 <ol>
 <ul>
@@ -71,10 +50,10 @@ para ejecutar como desarollador este trabajo es necesario tener
     abrir Xampp encender  apache y mysql
   </li>
   <li>
-    en la fila de mysql veremos un boton con el nombre admin de click al boton
+    encender mysql y pache en la fila de mysql veremos un boton con el nombre admin de click al boton
   </li>
   <li>
-    en myadmi en la parte izquierda creamos 3 nuevas tablas con los nombres precisos incluso mayusculas y minusculas:
+    en myadmi en la parte izquierda crear 3 nuevas tablas con los nombres precisos incluso mayusculas y minusculas:
   </li>
 </ul>
  </ol>
@@ -120,3 +99,27 @@ para ejecutar como desarollador este trabajo es necesario tener
 <br>
 
 ### si aparece algun error de campo le ponemos como longitud 255
+
+<h3>
+  Ejecutar trabajo como desarrolador
+</h3>
+<p> abrir la carpeta faturacionv2 y facturacion-api2 en Visual Studio Code por separado </p>
+
+<ul>
+  <li>
+    luego de abrir los archivos en el Visual Studio Code abrir la terminal y escribir npm install 
+  </li>
+  <li>
+    Se debe hacer en los dos archivos ↑
+  </li>
+</ul>
+
+<ul>
+  <li>
+    En el Visual Studio Code donde abrio facturacionv2 abrir la terminal y escribir el siguiente comando: ng s -o
+  </li>
+  <li>
+    En el Visual Studio Code donde abrio facturacion-api2 abrir la terminal y escribir el siguiente comando: npm run start:dev
+  </li>
+</ul>
+
