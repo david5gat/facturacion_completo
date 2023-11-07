@@ -99,7 +99,8 @@ para ejecutar como desarollador este trabajo es necesario tener
 <br>
 
 ### si aparece algun error de campo le ponemos como longitud 255
-
+<br>
+<br>
 <h3>
   Ejecutar trabajo como desarrolador
 </h3>
