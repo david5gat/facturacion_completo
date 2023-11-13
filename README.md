@@ -41,11 +41,70 @@ para ejecutar como desarollador este trabajo es necesario tener
  </h3>
 
  
-<p>↑ todo completo, despues abrir la carpeta  en Visual Studio Code </p>
+<p>↑ todo completo </p>
+
+## configuración Xampp
+<ol>
+<ul>
+  <li>
+    abrir Xampp encender  apache y mysql
+  </li>
+  <li>
+    encender mysql y pache en la fila de mysql veremos un boton con el nombre admin de click al boton
+  </li>
+  <li>
+    en myadmi en la parte izquierda crear 3 nuevas tablas con los nombres precisos incluso mayusculas y minusculas:
+  </li>
+</ul>
+ </ol>
+<table>
+   <tr>
+    <th>Tablas</th>
+    <th>Columnas</th>
+    <th><- Tipo de Datos de columnas</th>
+  </tr>
+  <tr>
+    <td>Factura</td>
+    <td> 
+    n_factura,
+    correo,
+    Servicios,
+    valor,
+    </td>
+    <td>int, varchar, varchar, int</td>
+  </tr>
+  <tr>
+    <td>servicios</td>
+    <td>
+    n_factura,
+    correo,
+    Servicios,
+    valor, 
+    </td>
+    <td>int, int, varchar, int</td>
+  </tr>
+    <td>Usuario</td>
+    <td> 
+    id_usuario,
+    nombre,
+    apellido,
+    correo,
+    contraseña,
+    direccion,
+    telefono,
+    </td>
+    <td>int, varchar, varchar, varchar, varchar, varchar, int</td>
+  </tr>
+</table>
+<br>
+
+### si aparece algun error de campo le ponemos como longitud 255
+<br>
+<br>
 <h3>
-  facturacion-api2
+  Ejecutar trabajo como desarrolador
 </h3>
-<p> luego abrir la carpeta faturacionv2 tambien en Visual Studio Code  </p>
+<p> abrir la carpeta faturacionv2 y facturacion-api2 en Visual Studio Code por separado </p>
 
 <ul>
   <li>
@@ -62,5 +121,5 @@ para ejecutar como desarollador este trabajo es necesario tener
   </li>
   <li>
     En el Visual Studio Code donde abrio facturacion-api2 abrir la terminal y escribir el siguiente comando: npm run start:dev
-  </li>
+  </li>
 </ul>
