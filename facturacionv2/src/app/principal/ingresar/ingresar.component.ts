@@ -67,7 +67,7 @@ export class IngresarComponent implements OnInit{
       localStorage.setItem('sesion',formCorreo)
       this.route.navigateByUrl('/servicios')
     }else{
-      console.error('verificar correo o contraseña');   
+      console.error(this.confirmar,'verificar correo o contraseña');   
     }
     
   }
